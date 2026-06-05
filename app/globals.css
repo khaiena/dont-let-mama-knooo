@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Tahoma', 'MS Sans Serif', Arial, sans-serif;
+  font-size: 11px;
+}
+
+:root {
+  --win-bg: #008080;
+  --win-titlebar-active: #000080;
+  --win-titlebar-inactive: #7b9ebd;
+  --win-titlebar-text: #ffffff;
+  --win-border-light: #ffffff;
+  --win-border-dark: #808080;
+  --win-border-darker: #404040;
+  --win-body-bg: #d4d0c8;
+  --win-button-face: #d4d0c8;
+  --taskbar-bg: #d4d0c8;
+}
+
+/* Scrollbar early 2000s style */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+::-webkit-scrollbar-track {
+  background: #d4d0c8;
+}
+::-webkit-scrollbar-thumb {
+  background: #a8a098;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+}
