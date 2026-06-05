@@ -1,3 +1,13 @@
+## Screenshots
+
+### Home
+
+![Home](./screenshots/home.png)
+
+### Features
+
+![Features](./screenshots/feature.png)
+
 # Don't Let Mama Knooo!
 
 Mama is working.
